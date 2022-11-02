@@ -5,15 +5,15 @@
 ---
 local addonName, addonTable = ...;
 
--- Get locales name
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+-- Get the common name for expansion
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
 db.name = Expansion .. " Cooking"
-db.desc = "Cooking items & reagents found in " .. Expansion
+db.desc = "Cooking reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {

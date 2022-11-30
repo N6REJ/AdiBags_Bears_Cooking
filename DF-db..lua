@@ -22,6 +22,7 @@ db.Filters = {
 		uiDesc = "Meat found in " .. Expansion,
 		title = "Meat",
 		items = {-- ID,	--Item name
+			[197755] = true, -- Lava beetle
 
 		}
 	},

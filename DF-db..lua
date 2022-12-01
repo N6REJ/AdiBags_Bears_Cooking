@@ -36,25 +36,25 @@ db.Filters = {
 
 		}
 	},
-	["Fish"] = {
+--[[	["Fish"] = {
 		uiName = Expansion .. " Fish",
 		uiDesc = "Fish found while fishing in " .. Expansion,
 		title = "Fish",
 		items = {
 			-- ID,	--Item name
-
+			
+		}
+	} 
+--]]
+	["Crafted"] = {
+		uiName = Expansion .. " Crafted",
+		uiDesc = "Crafted items found in " .. Expansion,
+		title = "Crafted",
+		items = {-- ID,	--Item name
+			[197757] = true, -- Assorted Exotic Spices
 
 		}
 	},
-	["Ore"] = {
-		uiName = Expansion .. " Mining",
-		uiDesc = "Ore found in " .. Expansion,
-		title = "Ore",
-		items = {
-			-- ID  = true,		--Item name
-
-		},
-	}
 }
 
 -- now that db is populated lets pass it on.

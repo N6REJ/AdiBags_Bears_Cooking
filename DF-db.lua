@@ -80,7 +80,8 @@ db.Filters = {
 		uiName = Expansion .. " Crafted",
 		uiDesc = "Crafted items found in " .. Expansion,
 		title = "Crafted",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[197757] = true, -- Assorted Exotic Spices
 			[197764] = true, -- Salad on the side
 			[197765] = true, -- Impossibly Sharp Cutting Knife
@@ -90,4 +91,4 @@ db.Filters = {
 }
 
 -- now that db is populated lets pass it on.
-addonTable.db = db
+addonTable.Dragonflight = db

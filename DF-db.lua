@@ -21,7 +21,8 @@ db.Filters = {
 		uiName = Expansion .. " Meat",
 		uiDesc = "Meat found in " .. Expansion,
 		title = "Meat",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[197741] = true,    -- Maybe meat
 			[197747] = true,    -- Mighty Mammoth Ribs
 			[197755] = true,    -- Lava beetle
@@ -85,7 +86,7 @@ db.Filters = {
 			[197765] = true, -- Impossibly Sharp Cutting Knife
 
 		}
-	},
+	}
 }
 
 -- now that db is populated lets pass it on.

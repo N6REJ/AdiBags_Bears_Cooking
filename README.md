@@ -5,11 +5,11 @@
 [![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Bears_Cooking.svg)](https://GitHub.com/N6REJ/AdiBags_Bears_Cooking/releases/)
 
 ![Bears](https://img.shields.io/badge/Supports-Shadowlands&nbsp;&amp;&nbsp;Dragonflight-0B68D7)
-![9.2](https://img.shields.io/badge/Ready_for-10.0.0-darkgreen)
+![10.0.2](https://img.shields.io/badge/Ready_for-10.0.2-darkgreen)
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-506378-purple)](https://www.curseforge.com/wow/addons/adibags_bears_cooking)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
-sorts "Fish", "Meat" & "Cooking vendor" reagents into their own categories
+sorts "Fish", "Meat" & other cooking reagents into their own categories
 
 
 ![settings](https://user-images.githubusercontent.com/1850089/139585471-e1c52878-0c36-494b-820c-d732315b60c5.png))

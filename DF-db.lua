@@ -23,16 +23,15 @@ db.Filters = {
 		title = "Meat",
 		items = {
 			-- ID,	--Item name
-			[197741] = true,    -- Maybe meat
-			[197747] = true,    -- Mighty Mammoth Ribs
-			[197755] = true,    -- Lava beetle
-			[197756] = true,    -- Pebbled Rock Salts
-			[197745] = true,    -- Basilisk Eggs
-			[197742] = true,    -- Ribbed Mollusk Meat
-			[197744] = true,    -- Hornswog Hunk
-			[197743] = true,    -- Waterfowl Filet
-			[197748] = true,    -- Burly Bear Haunch
-			[197746] = true,    -- Bruffalon Flank
+			[197741] = true, -- Maybe meat
+			[197747] = true, -- Mighty Mammoth Ribs
+			[197755] = true, -- Lava beetle
+			[197745] = true, -- Basilisk Eggs
+			[197742] = true, -- Ribbed Mollusk Meat
+			[197744] = true, -- Hornswog Hunk
+			[197743] = true, -- Waterfowl Filet
+			[197748] = true, -- Burly Bear Haunch
+			[197746] = true, -- Bruffalon Flank
 		}
 	},
 	["Fish"] = {
@@ -41,28 +40,28 @@ db.Filters = {
 		title = "Fish",
 		items = {
 			-- ID,	--Item name
-			[200061] = true,    -- Prismatic Leaper
-			[194967] = true,    -- Aileron Seamoth
-			[199345] = true,    -- Rimefin Tuna
-			[200074] = true,    -- Frosted Rimefin Tuna
-			[194730] = true,    -- Scalebelly Mackerel
-			[199344] = true,    -- Magma Thresher
-			[194966] = true,    -- Thousandbite Piranha
-			[194970] = true,    -- Islefin Dorado
-			[194969] = true,    -- Temporal Dragonhead
-			[194968] = true,    -- Cerulean Spinefish
-			[199346] = true,    -- Rotten Rimefin Tuna
+			[200061] = true, -- Prismatic Leaper
+			[194967] = true, -- Aileron Seamoth
+			[199345] = true, -- Rimefin Tuna
+			[200074] = true, -- Frosted Rimefin Tuna
+			[194730] = true, -- Scalebelly Mackerel
+			[199344] = true, -- Magma Thresher
+			[194966] = true, -- Thousandbite Piranha
+			[194970] = true, -- Islefin Dorado
+			[194969] = true, -- Temporal Dragonhead
+			[194968] = true, -- Cerulean Spinefish
+			[199346] = true, -- Rotten Rimefin Tuna
 		}
-	} ,
+	},
 	["Ore"] = {
 		uiName = Expansion .. " Ore",
 		uiDesc = "Ore used in Cooking in " .. Expansion,
 		title = "Ore",
 		items = {
 			-- ID,	--Item name
-			[197754] = true,    -- Salt Deposit
+			[197754] = true, -- Salt Deposit
 		}
-	} ,
+	},
 	["Crafted"] = {
 		uiName = Expansion .. " Crafted",
 		uiDesc = "Crafted items found in " .. Expansion,
@@ -72,6 +71,20 @@ db.Filters = {
 			[197757] = true, -- Assorted Exotic Spices
 			[197764] = true, -- Salad on the side
 			[197765] = true, -- Impossibly Sharp Cutting Knife
+			[197756] = true, -- Pebbled Rock Salts
+			[194902] = true, -- Ooey-Gooey Chocolate
+		}
+	},
+	["Tools"] = {
+		uiName = "Crafters tools",
+		uiDesc = "Special tools to aid in crafting " .. Expansion,
+		title = "Tools",
+		items = {
+			-- ID  = true,		--Item name
+			[376547] = true, -- Wildercloth Chef's Hat
+			[383551] = true, -- Chef's Smooth Rolling Pin
+			[376548] = true, -- Master's Wildercloth Chef's Hat
+			[383552] = true, -- Chef's Splendid Rolling Pin
 
 		}
 	}

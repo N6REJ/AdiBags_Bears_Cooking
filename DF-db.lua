@@ -12,13 +12,13 @@ local Expansion = L["Dragonflight"]
 -- Create addon table
 local db = {}
 
-db.name = Expansion .. " Cooking"
+db.name = "Bears " .. Expansion .. " Cooking"
 db.desc = "Cooking reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
 	["Meat"] = {
-		uiName = Expansion .. " Meat",
+		uiName = "Bears " .. Expansion .. " Meat",
 		uiDesc = "Meat found in " .. Expansion,
 		title = "Meat",
 		items = {
@@ -35,7 +35,7 @@ db.Filters = {
 		}
 	},
 	["Fish"] = {
-		uiName = Expansion .. " Fish",
+		uiName = "Bears " .. Expansion .. " Fish",
 		uiDesc = "Fish found while fishing in " .. Expansion,
 		title = "Fish",
 		items = {
@@ -54,8 +54,8 @@ db.Filters = {
 		}
 	},
 	["Ore"] = {
-		uiName = Expansion .. " Ore",
-		uiDesc = "Ore used in Cooking in " .. Expansion,
+		uiName = "Bears " .. Expansion .. " Ore",
+		uiDesc = "Ore found in " .. Expansion,
 		title = "Ore",
 		items = {
 			-- ID,	--Item name
@@ -63,7 +63,7 @@ db.Filters = {
 		}
 	},
 	["Crafted"] = {
-		uiName = Expansion .. " Crafted",
+		uiName = "Bears " .. Expansion .. " Crafted",
 		uiDesc = "Crafted items found in " .. Expansion,
 		title = "Crafted",
 		items = {

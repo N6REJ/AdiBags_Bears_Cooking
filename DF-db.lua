@@ -35,19 +35,6 @@ db.Filters = {
 			[197746] = true,    -- Bruffalon Flank
 		}
 	},
-	["Vendor_Reagents"] = {
-		uiName = Expansion .. " Cooking Reagents",
-		uiDesc = "Reagents from cooking vendors used in " .. Expansion,
-		title = "Vendor",
-		items = {
-			-- ID,	--Item name
-			[197752] = true, -- Conveniently Packaged Ingredients
-			[197749] = true, -- Ohn'ahran Potato
-			[197750] = true, -- Three-Cheese Blend
-			[197751] = true, -- Pastry packets
-			[197753] = true, -- Thaldraszian Cocoa Powder
-		}
-	},
 	["Fish"] = {
 		uiName = Expansion .. " Fish",
 		uiDesc = "Fish found while fishing in " .. Expansion,
@@ -86,22 +73,6 @@ db.Filters = {
 			[197764] = true, -- Salad on the side
 			[197765] = true, -- Impossibly Sharp Cutting Knife
 
-		}
-	},
-	["Zone_Reagents"] = {
-		uiName = "Special Reagents",
-		uiDesc = "Special reagents from " .. Expansion,
-		title = "DF Mats",
-		items = {
-			-- ID  = true,		--Item name
-			[190454] = true, -- Primal Chaos
-			[202122] = true, -- Primal Chaos Cluster
-			[200686] = true, -- Primal Focus
-			[190456] = true, -- Artisan's Mettle
-			[201405] = true, -- Tuft of Primal Wool -- Used by many professions
-			[201406] = true, -- Glowing Titan Orb   -- Used by many professions
-			[190453] = true, -- Spark of Ingenuity
-			[199197] = true, -- Bottled Essence
 		}
 	}
 }

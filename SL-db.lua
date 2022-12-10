@@ -18,7 +18,7 @@ db.desc = "Cooking reagents found in " .. Expansion
 -- Filter info
 db.Filters = {
     ["Meat"] = {
-        uiName = Expansion .. " Meat",
+        uiName = "Bears " .. Expansion .. " Meat",
         uiDesc = "Meat found in " .. Expansion,
         title = "Meat",
         items = {
@@ -32,7 +32,7 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = Expansion .. " Cooking Reagents",
+        uiName = "Bears " .. Expansion .. " Cooking Reagents",
         uiDesc = "Reagents from cooking vendors used in " .. Expansion,
         title = "Cooking Reagents",
         items = {
@@ -46,7 +46,7 @@ db.Filters = {
         }
     },
     ["Fish"] = {
-        uiName = Expansion .. " Fish",
+        uiName = "Bears " .. Expansion .. " Fish",
         uiDesc = "Fish found while fishing in " .. Expansion,
         title = "Fish",
         items = {
@@ -62,7 +62,7 @@ db.Filters = {
         }
     },
     ["Ore"] = {
-        uiName = Expansion .. " Mining",
+        uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {

@@ -69,10 +69,8 @@ db.Filters = {
 		items = {
 			-- ID,	--Item name
 			[197757] = true, -- Assorted Exotic Spices
-			[197764] = true, -- Salad on the side
 			[197765] = true, -- Impossibly Sharp Cutting Knife
 			[197756] = true, -- Pebbled Rock Salts
-			[194902] = true, -- Ooey-Gooey Chocolate
 		}
 	}
 }

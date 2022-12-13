@@ -64,7 +64,7 @@ db.Filters = {
 	},
 	["Crafted"] = {
 		uiName = "Bears " .. Expansion .. " Crafted",
-		uiDesc = "Crafted items found in " .. Expansion,
+		uiDesc = "Assorted crafted items found in " .. Expansion,
 		title = "Crafted",
 		items = {
 			-- ID,	--Item name
@@ -73,19 +73,6 @@ db.Filters = {
 			[197765] = true, -- Impossibly Sharp Cutting Knife
 			[197756] = true, -- Pebbled Rock Salts
 			[194902] = true, -- Ooey-Gooey Chocolate
-		}
-	},
-	["Tools"] = {
-		uiName = "Crafters tools",
-		uiDesc = "Special tools to aid in crafting " .. Expansion,
-		title = "Tools",
-		items = {
-			-- ID  = true,		--Item name
-			[376547] = true, -- Wildercloth Chef's Hat
-			[383551] = true, -- Chef's Smooth Rolling Pin
-			[376548] = true, -- Master's Wildercloth Chef's Hat
-			[383552] = true, -- Chef's Splendid Rolling Pin
-
 		}
 	}
 }

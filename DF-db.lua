@@ -63,8 +63,8 @@ db.Filters = {
 		}
 	},
 	["Crafted"] = {
-		uiName = "Bears " .. Expansion .. " Crafted",
-		uiDesc = "Assorted crafted items found in " .. Expansion,
+		uiName = "Bears " .. Expansion .. " Crafted Reagents",
+		uiDesc = "Assorted crafted reagents used in " .. Expansion,
 		title = "Crafted",
 		items = {
 			-- ID,	--Item name

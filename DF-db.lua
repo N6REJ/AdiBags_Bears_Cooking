@@ -72,6 +72,15 @@ db.Filters = {
 			[197765] = true, -- Impossibly Sharp Cutting Knife
 			[197756] = true, -- Pebbled Rock Salts
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan cooking items",
+		uiDesc = "Artisan items found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203400] = true, -- Lackluster Spices
+		}
 	}
 }
 

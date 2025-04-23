@@ -26,13 +26,18 @@ db.Filters = {
             [190456] = true, -- Artisan's Mettle
             [201405] = true, -- Tuft of Primal Wool -- Used by many professions
             [201406] = true, -- Glowing Titan Orb   -- Used by many professions
-            [190453] = true, -- Spark of Ingenuity
             [199197] = true, -- Bottled Essence
             [190455] = true, -- Concentrated Primal Focus
             [201400] = true, -- Aquatic Maw         -- Used by blacksmith and leatherworking
             [204217] = true, -- Unstable Elementium
-
-            -- Zaralek Cavern
+        }
+    },
+    ["Sparks"] = {
+        uiName = "Bears " .. Expansion .. " Sparks & crests",
+        uiDesc = "Sparks & crests from " .. Expansion,
+        title = "Sparks",
+        items = {
+            -- ID  = true,		--Item name
             [204195] = true, -- Drake's Shadowflame Crest
             [204193] = true, -- Whelpling's Shadowflame Crest
             [204697] = true, -- Enchanted Aspect's Shadowflame Crest
@@ -41,6 +46,41 @@ db.Filters = {
             [204682] = true, -- Enchanted Wyrm's Shadowflame Crest
             [204681] = true, -- Enchanted Whelpling's Shadowflame Crest
             [204440] = true, -- Spark of Shadowflame
+            [190453] = true, -- Spark of Ingenuity
+            [204717] = true, -- Splintered Spark of Shadowflame
+            [208396] = true, -- Splintered Spark of Dreams
+            [206959] = true, -- Spark of Dreams
+            [206960] = true, -- Enchanted Wyrm's Dreaming Crest
+        }
+    },
+    ["Combine"] = {
+        uiName = Expansion .. " combine Items",
+        uiDesc = "Items that need to be combined in" .. Expansion,
+        title = "Combine",
+        items = {
+            -- ID  = true,		--Item name
+            [203703] = true, -- Prismatic Fragment
+            [203702] = true, -- Experimental Melder
+            [204360] = true, -- Strange Petrified Orb
+            [204369] = true, -- Scrap of Black Dragonscales
+            [204366] = true, -- Egg of unknown Contents
+            [204352] = true, -- Leftover Elemental Slime
+            [204371] = true, -- Drop of Blue Dragon Magic
+            [204075] = true, -- Whelpling's Shadowflame Crest Fragment
+            [204078] = true, -- Aspect's Shadowflame Crest Fragment
+            [204077] = true, -- Wyrm's Shadowflame Crest Fragment
+            [204076] = true, -- Drake's Shadowflame Crest Fragment
+            [204363] = true, -- Particularly Ordinary Egg
+            [206014] = true, -- Ouroboros Tablet
+            [206017] = true, -- Ouroboros Tablet
+            [206015] = true, -- Ouroboros Tablet
+            [206009] = true, -- Ouroboros Tablet
+            [206016] = true, -- Ouroboros Tablet
+            [206011] = true, -- Design of bones
+            [411665] = true, -- Recover designs
+            [206012] = true, -- Designs of Mind
+            [206010] = true, -- Designs of the flesh
+            [209419] = true -- Charred Elemental Remains
         }
     },
     ["Finishing_Reagents"] = {
